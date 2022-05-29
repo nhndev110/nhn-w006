@@ -645,6 +645,10 @@ header {
     transition: 0.3s;
 }
 
+#section__place .section__place--right_imgs .section__place--right_img:hover::after {
+    box-shadow: 10px 10px 10px black;
+}
+
 #section__place .section__place--right_img .sub_right--img {
     position: absolute;
     bottom: 0;
@@ -663,11 +667,6 @@ header {
 
 #section__place .section__place--right_img img {
     width: 100%;
-}
-
-#section__place .section__place--right_imgs .section__place--right_img:hover {
-    transform: rotate3d(0, 0, 1, 360deg);
-    transition: 0.7s;
 }
 
 #section__place .section__place--right-items a {
@@ -800,7 +799,7 @@ header {
     }
     to {
         transform: scale(1.1);
-        box-shadow: 8px 8px 12px var(--orange-color);
+        box-shadow: 12px 12px 6px var(--orange-color);
     }
 }
 
