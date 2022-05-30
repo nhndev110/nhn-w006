@@ -1,5 +1,3 @@
-// var heightMenu = $(document.getElementsByClassName("container-hearder")[0]).height();
-
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() !== 0)
